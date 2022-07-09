@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+//import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -12,19 +12,19 @@ public class MyLambda {
 
 	public static void main(String[] args) {
 		
-		///* Lista creada para hacer pruebas
-		 //*
+		/* Lista creada para hacer pruebas
+		 *
 		 List <Integer> numList=new ArrayList<Integer>();
 		 
 		 for (int i=-20; i<700;i++) {
 			
 		 	numList.add(i);
 		 }
-		//*/
+		*/
 		
-		checker(numList);
-		//checker(Arrays.asList(4,5,898,34));
-		//checker(Arrays.asList(0));
+		//checker(numList);
+		checker(Arrays.asList(4,5,898,34));
+		checker(Arrays.asList(0));
 	}
 	
 	public static void checker(List <Integer> numList) {
